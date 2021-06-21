@@ -18,5 +18,10 @@
     "username": "shavon2",
     "password": "hi",
     "created": "2021-06-21 13-04-58"
+  },
+  "john": {
+    "username": "john",
+    "password": "123",
+    "created": "2021-06-21 13-20-15"
   }
 }

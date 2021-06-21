@@ -23,6 +23,12 @@ class SignUpScreen(Screen):
 
         with open("users.json",'w') as file:
             json.dump(users,file,indent=2)
+        self.manager.current ="sign_up_screen_success"
+
+class SignUpScreenSuccess(Screen):
+    def go_to_login(self):
+        self.manager.transition.direction = 'right'
+        self.manager.current ="login_screen"
 
 class MainApp(App):
     def build(self):
